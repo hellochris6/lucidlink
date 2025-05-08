@@ -2,7 +2,7 @@ import os
 import concurrent.futures
 from tqdm import tqdm 
 
-LUCIDLINK_PATH = "/Volumes/bf-post"
+LUCIDLINK_PATH = "#"
 
 def is_lucidlink_mounted():
     return os.path.ismount(LUCIDLINK_PATH)
